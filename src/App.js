@@ -8,7 +8,9 @@ import Nav from "../src/components/Nav/nav";
 function App() {
   return (
     <Router>
-      <Nav className="nav"/>
+      <div className="nav">
+        <Nav/>
+      </div>
       <Switch className="pages">
         <Route exact path="/" component={Home} />
         <Route path="/menu" component={Menu} />

@@ -1,3 +1,13 @@
 .top {
-    background-image: "";
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  width: 100%;
+  position: absolute;
+}
+
+.body {
+  margin-top: 100vh;
+  height: 500vh;
 }
