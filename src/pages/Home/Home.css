@@ -1,6 +1,8 @@
 .top {
   height: 100vh;
-  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   top: 0;
   width: 100%;
