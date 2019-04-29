@@ -1,18 +1,15 @@
 import React from 'react';
 import './Home.css';
+import Top from '../../components/top/top';
+import Drinks from '../Drinks/Drinks';
+
 
 export default class Home extends React.Component {
     render() {
         return(
             <div>
-                <div className="top" style={{backgroundImage: 'url(' + require('../../img/coffee-pour.jpg') + ')'}}>
-                    
-                </div>
-                <div className="body">
-                    <p>
-                        qwerqwer
-                    </p>
-                </div>
+                <Top/>
+                <Drinks/>
             </div>
         )
     }
