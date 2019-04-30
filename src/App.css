@@ -1,3 +1,6 @@
+/* font-family: 'Poiret One' */
+@import url('https://fonts.googleapis.com/css?family=Poiret+One'); 
+
 .App {
   text-align: center;
 }
@@ -51,6 +54,11 @@ button, input[type="submit"], input[type="reset"] {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poiret One';
+  text-align: center;
 }
 
 .nav {

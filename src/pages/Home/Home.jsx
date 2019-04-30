@@ -1,7 +1,8 @@
 import React from 'react';
 import './Home.css';
 import Top from '../../components/top/top';
-import Drinks from '../Drinks/Drinks';
+import Drinks from '../../components/Drinks/Drinks';
+import Preferences from '../../components/Preferences/Preferences';
 
 
 export default class Home extends React.Component {
@@ -9,6 +10,7 @@ export default class Home extends React.Component {
         return(
             <div>
                 <Top/>
+                <Preferences/>
                 <Drinks/>
             </div>
         )

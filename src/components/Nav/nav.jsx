@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./nav.css";
 
 export default class Nav extends React.Component {
@@ -12,19 +11,11 @@ export default class Nav extends React.Component {
     return (
       <div style={{ display: "flex" }}>
         <div className="nav left">
-          <button onClick={this.scrollTop} className="coffee">Coffee</button>
+          <button onClick={this.scrollTop} className="coffee">COFFEE</button>
         </div>
         <div className="nav right">
-          <Link to="/shop" className="option">
-            Shop
-          </Link>
-          <Link to="/reservation" className="option">
-            Reservation
-          </Link>
-          <Link to="/menu" className="option">
-            Menu
-          </Link>
-          <a href="#drinks" className="option">Drinks</a>
+          <a href="#drinks" className="option">Gallery</a>
+          <a href="#preferences" className="option">My Addiction</a>
         </div>
       </div>
     );
