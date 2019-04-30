@@ -14,6 +14,7 @@ export default class Nav extends React.Component {
           <button onClick={this.scrollTop} className="coffee">COFFEE</button>
         </div>
         <div className="nav right">
+          <a href="#locations" className="option">Spotted</a>
           <a href="#drinks" className="option">Gallery</a>
           <a href="#preferences" className="option">My Addiction</a>
         </div>
