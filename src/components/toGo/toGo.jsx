@@ -8,9 +8,15 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
+  button: {
+
+  },
   textField: {
     marginLeft: theme.spacing.unit,
     marginRight: theme.spacing.unit
+  },
+  dialogTitle: {
+    color: '#47240d',
   }
 });
 
@@ -34,20 +40,19 @@ class ToGo extends React.Component {
 
     return (
       <div>
-        <Button
-          variant="outlined"
-          color="primary"
+        <button
           onClick={this.handleClickOpen}
+          className="addLocation"
         >
-          Add location
-        </Button>
+          +
+        </button>
         <Dialog
           open={this.state.open}
           onClose={this.handleClose}
           aria-labelledby="form-dialog-title"
         >
-          <DialogTitle id="form-dialog-title">
-            Coffee Shop to go List
+          <DialogTitle id="form-dialog-title" className={classes.dialogTitle}>
+            Coffee Shop to Vist
           </DialogTitle>
           <DialogContent>
             <TextField
@@ -66,10 +71,10 @@ class ToGo extends React.Component {
             />
           </DialogContent>
           <DialogActions>
-            <Button onClick={this.handleClose} color="primary">
+            <Button onClick={this.handleClose}>
               Cancel
             </Button>
-            <Button onClick={this.handleClose} color="primary">
+            <Button onClick={this.handleClose}>
               Add
             </Button>
           </DialogActions>
