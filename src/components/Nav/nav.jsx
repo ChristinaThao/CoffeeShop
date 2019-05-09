@@ -15,8 +15,8 @@ export default class Nav extends React.Component {
         </div>
         <div className="nav right">
           <a href="#spotted" className="option">Spotted</a>
-          <a href="#drinks" className="option">Gallery</a>
-          <a href="#preferences" className="option">My Addiction</a>
+          <a href="#gallery" className="option">Gallery</a>
+          <a href="#preferences" className="option">Coffee Fact</a>
         </div>
       </div>
     );

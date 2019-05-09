@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
     "fsevents": "^2.0.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -30,5 +31,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "file-loader": "^3.0.1",
+    "url-loader": "^1.1.2"
   }
 }

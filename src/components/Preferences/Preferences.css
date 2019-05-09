@@ -3,7 +3,14 @@
 }
 
 .info {
-    border: 1px solid black;
-    margin: 2em;
-    height: 50vh;
+    background-color: rgb(43,16,5);
+    height: 30vh;
+    display: grid;
+}
+
+.inner {
+    align-self: center;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
 }

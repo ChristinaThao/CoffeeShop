@@ -6,14 +6,14 @@ import Nav from "../src/components/nav/nav";
 
 function App() {
   return (
-    <Router>
+    <div style={{backgroundImage: 'url(' + require('./img/coffee-pour.jpg') + ')'}} className="app">
+      <Router>
       <div className="nav">
         <Nav/>
       </div>
-      <Switch className="pages">
-        <Route exact path="/" component={Home} />
-      </Switch>
+      <Route exact path="/" component={Home} />
     </Router>
+    </div>
   );
 }
 

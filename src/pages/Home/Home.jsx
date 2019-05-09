@@ -1,6 +1,5 @@
 import React from 'react';
-import Top from '../../components/top/top';
-import Drinks from '../../components/Drinks/Drinks';
+import Gallery from '../../components/Gallery/gallery';
 import Preferences from '../../components/Preferences/Preferences';
 import Spotted from '../../components/Spotted/Spotted';
 
@@ -10,9 +9,10 @@ export default class Home extends React.Component {
     render() {
         return(
             <div style={{marginBottom:"1em"}}>
-                <Top/>
                 <Preferences/>
-                <Drinks/>
+                <div style={{backgroundImage: 'url(' + require('../../img/brunch.jpg') + ')'}} className="random"></div>
+                <Gallery/>
+                <div style={{backgroundImage: 'url(' + require('../../img/macaron.jpg') + ')'}} className="random"></div>
                 <Spotted/>
             </div>
         )
