@@ -19,13 +19,18 @@ body {
 
 @media screen and (min-width: 1180px) {
   .app {
-    background-size: cover;
-    background-position: center;
+    background-position: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100%;
-    position: absolute;
-    min-height: 100%;
+    position: relative;
+    max-height: 100%;
+    perspective: 1px;
+    transform-style: preserve-3d;
+  }
+
+  .app::before{
+    transform:translateZ(-1px) scale(2);
   }
 }
 
@@ -35,7 +40,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 100%;
+    position: relative;
+    max-height: 100%;
   }
 }
 
