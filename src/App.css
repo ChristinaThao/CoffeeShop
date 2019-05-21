@@ -1,5 +1,5 @@
 /* font-family: 'Poiret One' */
-@import url('https://fonts.googleapis.com/css?family=Poiret+One'); 
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
 
 html {
   scroll-behavior: smooth;
@@ -9,7 +9,6 @@ html {
   width: 100%;
   height: 100%;
 }
-
 body {
   padding: 0;
   margin: 0;
@@ -17,32 +16,14 @@ body {
   height: 100%;
 }
 
-@media screen and (min-width: 1180px) {
-  .app {
-    background-position: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    width: 100%;
-    position: relative;
-    max-height: 100%;
-    perspective: 1px;
-    transform-style: preserve-3d;
-  }
-
-  .app::before{
-    transform:translateZ(-1px) scale(2);
-  }
-}
-
-@media screen and (max-width: 1180px) {
-  .app {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: relative;
-    max-height: 100%;
-  }
+.app {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  background-image: url("./img/coffee-pour.jpg");
 }
 
 div {
@@ -53,18 +34,24 @@ a {
   text-decoration: none;
 }
 
-button, input[type="submit"], input[type="reset"] {
-	background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Poiret One';
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poiret One";
   text-align: center;
   padding: 0;
   margin: 0;

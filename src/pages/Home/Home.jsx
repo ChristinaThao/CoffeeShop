@@ -10,9 +10,9 @@ export default class Home extends React.Component {
         return(
             <div style={{marginBottom:"1em"}}>
                 <Preferences/>
-                <div style={{backgroundImage: 'url(' + require('../../img/brunch.jpg') + ')'}} className="random"></div>
+                <div className="random random1"></div>
                 <Gallery/>
-                <div style={{backgroundImage: 'url(' + require('../../img/macaron.jpg') + ')'}} className="random"></div>
+                <div className="random random2"></div>
                 <Spotted/>
             </div>
         )

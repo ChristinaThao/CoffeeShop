@@ -17,7 +17,7 @@
     content: 'Visited';
     font-size: 1.25em;
     position: absolute;
-    background: white;
+    background: transparent;
     height: 1.5em;
     margin-top: -13px;
     margin-left: 0.5em;
