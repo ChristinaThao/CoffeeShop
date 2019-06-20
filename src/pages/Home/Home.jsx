@@ -17,14 +17,14 @@ export default class Home extends React.Component {
                 description: "But adding cream, milk and sugar will quickly escalade those numbers"
             }
         ]
+        
         return(
-            <div style={{marginBottom:"1em", marginTop: "100vh"}}>
-
+            <div style={{marginTop: "100vh"}}>
                 <Fact fact={facts[0].title} description = {facts[0].description}/>
                 <div className="random random1"></div>
                 <Fact fact={facts[1].title} description = {facts[1].description}/>
                 <Gallery/>
-                <div className="random random2" style={{bottom: 0, position: "relative"}}></div>
+                <div className="random random2"></div>
             </div>
         )
     }

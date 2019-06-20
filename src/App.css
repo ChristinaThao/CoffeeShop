@@ -25,6 +25,8 @@ body {
   width: 100%;
   position: absolute;
   background-image: url("./img/coffee-pour.jpg");
+  padding: 0;
+  margin: 0;
 }
 
 div {
